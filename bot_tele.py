@@ -76,7 +76,6 @@ def handle_photo_message(message):
    #image.show()
 
    bot.send_message(message.chat.id, "Terimaksih telah mengirim")
-   bot.send_message(message.chat.id, "👍")
 
 @bot.message_handler(content_types=['sticker'])
 def handle_sticker(message):
